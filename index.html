@@ -1,31 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Events Exercise</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Digital CV</title>
+  </head>
 
-		<link
-				rel="stylesheet"
-				href="style.css"
-		>
-		<script src="script.js"></script>
-	</head>
-	<body>
-		<form id="color-form">
-			<label for="color-input">Box Color:</label>
-			<input
-					type="text"
-					id="color-input"
-					placeholder="black, rgb(0, 0, 0), #000000"
-			>
+  <body>
+    <header>
+      <h1>Da'Nyah Harris</h1>
+      <p>Aspiring Software Developer</p>
+    </header>
 
-			<button type="submit">Set as New Color</button>
-		</form>
+    <section>
+      <h2>Contact Information</h2>
+        <ul>
+        <li>Email: danyahharris@gmail.com</li>
+        <li>Phone: (706) 887-9406</li>
+        <li>Location: Columbus, Georgia</li>
+    </section>
 
-		<button id="new-box-button">New Box</button>
+     <h2>About Me</h2>
+      <p>
+        I'm Da'Nyah Harris, an aspiring soon to be software developer currently enrolled in a software development program.
+        I'm passionate about learning HTML,CSS, AND JavaScript, and After this course i'm working toward becoming a cybersecurity analyst.
+        I enjoy building creative projects,solving tech challenges, and bringing ideas to life with code.
+      </p>
 
-		<div id="box-container">
-			<!-- You'll create the boxes here. -->
-		</div>
-	</body>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Problem Solving</li>
+        <li>Responsive Web Design</li>
+        <li> Debugging</li>
+      </ul>
+    </section>
+
+    <h2>Education</h2>
+    <p>Kendrick High School Diploma-2021</p>
+    <p>Software Development Program Springboard (2025)</p>
+
+     <h2>Projects</h2>
+     <h3>My Digital CV Website</h3>
+     <p>Build this CV using HTML and CodeSandbox</p>
+
+      <h2>Certifications</h2> thank
+      <ul>
+        <li>Springboard Software Developer Program-In progress 2025</li>
+    
+      <h2>Experience</h2>
+      <p><strong>Walmart Senior Coordinator (2023–Present)</strong></p>
+      </ul>
+       <li>Strong communication service and Skills</li>
+       <li> Conflict Resolution and de-escalation </li>
+       <li>Professional email and chat support </li>
+       <li>Written communication and active listening</li>
+      </ul>
+
+    <h1>skills<</h1>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>HTML1</td>
+        <td>Beginner</td> 
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>CSS3</td>
+        <td>Intermediate</td>
+
+       </tr>
+       <tr>
+        <td>3</td>
+        <td>JavaScript</td>
+        <td>Beginner</td>
+       </tr>
+    </table>
+   
+    <h2>Contact Me</h2>
+
+    <form>
+      <!-- Name -->
+      <label for="name">Name:Da'Nyah Harris</label>
+      <input type="text" id="name" name="name" value="DaNyah Harris" required>
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:danyahharis@gmail.com</label>
+      <input type="email" id="email" name="email" value="danyahharris@gmail.com" required>
+      <br><br>
+
+      <!-- Phone -->
+      <label for="phone">Phone:7068879406</label>
+      <input type="tel" id="phone" name="phone" value="7068879406">
+      <br><br>
+
+      <!-- Organization -->
+      <label for="org">Organization:</label>
+      <input type="text" id="org" name="organization" placeholder="Springboard">
+      <br><br>
+
+      <!-- Role -->
+      <label for="role">Role:</label>g
+      <input type="text" id="role" name="role" placeholder="Junior Software Developer">
+      <br><br>
+
+      <!-- Reason for Contact -->
+      <label for="reason">Reason for Contact:</label>
+      <select id="reason" name="reason">
+        <option value="job">Job Offer</option>
+      
+      </select>
+      <br><br>
+
+      <!-- When do you prefer to code -->
+      <p>When do you prefer to code?</p> Bright & Early
+      <input type="checkbox" id="bright" name="when" value="Bright & Early">
+      <label for="bright">Bright & Early</label><br>
+
+      <input type="checkbox" id="sunny" name="when" value="Sunny Afternoon">
+      <label for="sunny">Sunny Afternoon</label><br>
+
+      <input type="checkbox" id="night" name="when" value="Night Owl">
+      <label for="night">Night Owl</label><br>
+
+      <input type="checkbox" id="late" name="when" value="2 AM">
+      <label for="late">2 AM</label>
+      <br><br>
+
+      <!-- Message -->
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" placeholder="Hello, my name is Da'Nyah Harris. I'm a beginner software developer learning HTML,CSS, and Javascript.Im excited to build my skills through projects and collaborations, and I'm open to feedback and guidance."></textarea>
+      <br><br>
+
+      <!-- Buttons -->
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <footer>
+      <p>&copy;2025 Da'Nyah Harris|Built with HTML</p>
+    </footer>
+
+  </body>
 </html>
